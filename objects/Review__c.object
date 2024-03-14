@@ -15,7 +15,7 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-    
+
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -209,6 +209,17 @@
         <fullName>Comments__c</fullName>
         <externalId>false</externalId>
         <label>Comments</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NewField__c</fullName>
+        <externalId>false</externalId>
+        <label>NewField</label>
         <length>200</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
